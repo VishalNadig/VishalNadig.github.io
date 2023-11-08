@@ -8,7 +8,8 @@
 }
 
 body{
-    background: #1f242d;
+    /* background: #1f242d; */
+    background: black;
     color: #fff;
 
 }
@@ -53,6 +54,7 @@ body{
 .navbar a:hover,
 .navbar a.active{
     color: #0ef;
+    text-shadow: 0 0px 5px #03e9f4, 0 0px 5px #03e9f4, 0 0px 5px #03e9f4;
 }
 
 .home{
@@ -151,6 +153,12 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
+}
+
+.btn:hover{
+    /* background: transparent; */
+    color: black;
+    box-shadow: 0 0 10px #0ef;
 }
 
 @keyframes slideRight{ 
