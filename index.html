@@ -1,136 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>S.A.S.S</title>
-    <!-- <meta http-equiv="refresh" content="2"> -->
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio Website</title>
+    <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = 'stylesheet'>
 </head>
 <body>
-    <div id="spinner"></div>
-    <div class="battery-percentage"></div>
-    <div class="watch-battery">
+    <header class="header">
+        <a href = "#" class = "logo">Portfolio</a>
+        <nav class="navbar">
+            <a href = "#" style="--i:1" class="active">Home</a>
+            <a href = "#" style="--i:2">About</a>
+            <a href = "#" style="--i:3">Skills</a>
+            <a href = "#" style="--i:4">Projects</a>
+            <a href = "#" style="--i:5">Contact</a>
+        </nav>
+    </header>
 
-      <img class = "watch-battery" src="smartwatch_battery2.png">
-    </div>
-    <script type="module" src="/activities.js"></script>
-    <div class="title-container">
-      <div class="title">Super Agile Support System</div>
-    </div>
-
-    <div class="health-section">
-      <a href="health.html">Health</a>
-        <span class="steps-meter"></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      <div class="calories"><a href="" class="calories-count"></a>
-        <img class = "calories" src="calories.jpeg">
-      </div>
-      <div class="steps"><a href="" class="steps-count" ></a>
-        <img class = "steps" src="steps.jpeg">
-      </div>
-      <div class="heartrate"><a href="" class="heartrate-count"></a>
-        <img class = "heartrate" src="heart.jpg">
-      </div>
-      <div class="sleep"><a href="" class="sleep-count"></a>
-        <img class = "sleep" src="sleep.jpeg">
-      </div>
-      <div class="travel"><a href="" class="distance-count"></a>
-        <img class = "travel" src="location.png">
-      </div>
-      <div class="weight"><a href="" class="weight-count"></a>
-        <img class = "weight" src="weight.png">
-      </div>
-    </div>
-    <div class="coding-section">
-      <div class="foreground"></div>
-      <a href="https://vscode.dev/">Coding</a>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <div class="python"><a href=""></a>
-        <img class = "python" src="python.png">
-      </div>
-      <div class="cpp"><a href=""></a>
-        <img class = "cpp" src="cpp.png">
-      </div>
-      <div class="css"><a href="https://vscode.dev/">
-        <img class = "css" src="css.png">
-      </a>
-      </div>
-      <div class="leetcode"><a href=""></a>
-        <img class = "leetcode" src="leetcode.png">
-      </div>
-      <div class="html"><a href=""></a>
-        <img class = "html" src="html.png">
-      </div>
-      <div class="javascript"><a href=""></a>
-        <img class = "javascript" src="javascript.png">
-      </div>
-    </div>
-    <div class="journal-section">
-      <a href="https://www.notion.so/vishal-nadig/Personal-Home-67ad63b874f4458f84dad0f21dfabe8a">Journal</a>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <div class="write"><a href=""></a>
-        <img class = "write" src="write.png">
-      </div>
-      <div class="upload"><a href=""></a>
-        <img class = "upload" src="upload.png">
-      </div>
-      <div class="modify"><a href=""></a>
-        <img class = "modify" src="modify.png">
-      </div>
-      <div class="delete"><a href=""></a>
-        <img class = "delete" src="delete.png">
-      </div>
-    </div>
-    <div class="random-section">
-      <div class="foreground"></div>
-      <a href="#">portfolio</a>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <div class="linkedin">
-        <a href="https://www.linkedin.com/in/vishal-nadig/" target="_blank"><img class = "linkedin" src="linkedin.png"></a>
-      </div>
-      <div class="google">
-        <a href="https://www.google.com/" target="_blank"><img class = "google" src="chrome.png"></a>
-      </div>
-      <div class="github">
-        <a href="https://github.com/VishalNadig" target="_blank"><img class = "github" src="github.png"></a>
-      </div>
-      <div class="twitter"><a href="https://www.twitter.com" target="_blank">
-        <img class = "twitter" src="twitter.png"></a>
-      </div>
-    </div>
-    <div class="entertainment-section">
-      <div class="foreground"></div>
-      <a href="#">entertainment</a>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <div class="youtube">
-        <a href="https:www.youtube.com" target="_blank"><img class = "youtube" src="youtube.png"></a>
-      </div>
-      <div class="sflix">
-        <a href="https://www.sflix.to/" target="_blank"><img class = "sflix" src="sflix.png"></a>
-      </div>
-      <div class="sports">
-        <a href="https://streameast.app/" target="_blank"><img class = "sflix" src="sports.png"></a>
-      </div>
-      <div class="media-player">
-        <a href="https://streameast.app/"><img class = "media-player" src="media_player2.png"></a>
-      </div>
-      <div class="spotify">
-        <a href="https://open.spotify.com/"><img class = "spotify" src="spotify.png"></a>
-      </div>
-      
-    </div>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Vishal Nadig</h1>
+            <h3>And I am a <span class="multiple-text">Computer Engineer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, provident. Voluptates nam pariatur facilis possimus, aliquam, veritatis assumenda praesentium similique alias quos eaque incidunt nostrum reiciendis? Eveniet a suscipit ipsum!</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/vishal.nadig.5" style="--i:6"><i class="bx bxl-gmail"></i></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FVishalNadig" style="--i:7"> <i class="bx bxl-twitter"></i></a>
+                <a href="https://in.linkedin.com/in/vishal-nadig-908a96174" style="--i:8"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/VishalNadig" style="--i:9"><i class="bx bxl-github"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+    <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
 </body>
 </html>
